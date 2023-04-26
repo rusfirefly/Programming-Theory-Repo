@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Chicken : Animal
+public class Kitti : Animal
 {
-    // Start is called before the first frame update
     public override void Talk()
     {
-        talk = "×ÈÊ-×ÈÊ!";
+        talk = "ÌßÓÓÓ!";
+        
     }
 }

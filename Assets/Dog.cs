@@ -2,17 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cat : MonoBehaviour
+public class Dog : Animal
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public override void Talk()
     {
-        
+        talk = "ÃÀÂ-ÃÀÂ-ÃÀÂ!";
+        StartCoroutine(TalkDog());
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator TalkDog()
     {
-        
+        info.text = $"{talk}";
+        yield return new WaitForSeconds(1.5f);
+        info.text = $"Animal:{gameObject.name} : Name: {name}";
     }
+
 }
