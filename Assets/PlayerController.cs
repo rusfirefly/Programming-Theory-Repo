@@ -30,6 +30,8 @@ public class PlayerController : MonoBehaviour
             player.gameObject.GetComponent<Animal>().Walk();
             mainCamera.transform.position = new Vector3(player.transform.position.x, 7, player.transform.position.z - 9);
 
+            if (Input.GetKeyDown(KeyCode.Space))
+                player.gameObject.GetComponent<Animal>().Jamp();
         }
         else
         {

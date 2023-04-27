@@ -7,6 +7,7 @@ public class Animal : MonoBehaviour
     [SerializeField] string name;
     [SerializeField] public string talk { get; set; }
     [SerializeField] float speed;
+    float jumpForce = 10;
     
     public TMPro.TextMeshPro info;
     [SerializeField] GameObject selectedMarker;
@@ -62,6 +63,7 @@ public class Animal : MonoBehaviour
     public virtual void Jamp()
     {
         Debug.Log("jump ");
+        animalRB.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
     }
 
 }
