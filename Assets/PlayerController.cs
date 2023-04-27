@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
             if (player.gameObject.name != GameManeger.Instance.selectedObj.name)
             {
                 player = GameManeger.Instance.selectedObj;
-                mainCamera.transform.position = new Vector3(player.transform.position.x, 7, player.transform.position.z - 9 );
+                mainCamera.transform.position = new Vector3(player.transform.position.x, 8, player.transform.position.z - 5 );
             }
 
             if (Input.GetKeyDown(KeyCode.T))
@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
             mainCamera.transform.position = new Vector3(player.transform.position.x, 7, player.transform.position.z - 9);
 
             if (Input.GetKeyDown(KeyCode.Space))
-                player.gameObject.GetComponent<Animal>().Jamp();
+                player.gameObject.GetComponent<Animal>().Jump();
         }
         else
         {

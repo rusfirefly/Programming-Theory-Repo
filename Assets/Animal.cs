@@ -60,7 +60,7 @@ public class Animal : MonoBehaviour
     {
         talk = "TALK";
     }
-    public virtual void Jamp()
+    public virtual void Jump()
     {
         Debug.Log("jump ");
         animalRB.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
