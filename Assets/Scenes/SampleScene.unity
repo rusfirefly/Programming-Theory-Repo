@@ -3044,7 +3044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: "\u0421\u041B\u041E\u041D"
-  speed: 25
+  speed: 450
   info: {fileID: 1335972766}
   selectedMarker: {fileID: 177182365}
 --- !u!43 &1044148414
@@ -4823,8 +4823,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -431, y: 222}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -383.4671, y: 200.27069}
+  m_SizeDelta: {x: 295.0658, y: 93.4586}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1735901738
 MonoBehaviour:
@@ -4852,7 +4852,8 @@ MonoBehaviour:
     Talk()\n3. Space \u043F\u0440\u044B\u0436\u043E\u043A \n4. \u043D\u0435 \u0440\u0435\u0430\u043B\u0438\u0437\u043E\u0432\u0430\u043B
     \u043B\u0430\u0437\u0430\u043D\u044C\u0435 \u043A\u043E\u0442\u0438\u043A\u043E\u0432
     \u043F\u043E \u0434\u0435\u0440\u0435\u0432\u0443\n5. \u043A\u0443\u0440\u0438\u0446\u044B
-    \u0434\u043E\u043B\u0436\u043D\u044B \u043F\u0430\u0440\u0438\u0442\u044C...\n"
+    \u0434\u043E\u043B\u0436\u043D\u044B \u043F\u0430\u0440\u0438\u0442\u044C...\n6.
+    \u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435 WASD\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4879,7 +4880,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 6.4
+  m_fontSize: 11.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
